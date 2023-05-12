@@ -6,8 +6,8 @@ function App() {
 
 
   return (
-    <div>
-      <PortfolioContainer />
+    <div className='app'>
+      <PortfolioContainer/>
     </div>
   );
 }
