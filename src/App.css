@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.app {
+  margin: 0;
+  background-color:cornflowerblue;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Nav Bar */
+
+a:link {
+  color: white;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  color: white;
 }
+
+.navbar {
+
+  list-style: none;
+  gap: 10px;
+  padding: 20px;
+  padding-right: 25px;
+  margin: 0;
+  color: white;
+  background-color:darkslategray;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+/* Home Page*/
+
+.home-container {
+  text-align: center;
+  margin: 30px;
+}
+
+
+
+/* Portfolio Page */
+
+.portfolio-container {
+  text-align: center;
+}
+
+
+
+/* Experience Page */
+
+.experience-container {
+  text-align: center;
+}
+
+
+
+/* Interests Page */
+
+.interests-title {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.interests-container {
+  display: grid;
+  padding: 3rem;
+  grid-template-columns: 400px 1fr;
+  gap: 2rem;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  font: 500 100%/2.5 system-ui;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+

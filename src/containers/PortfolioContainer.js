@@ -8,7 +8,7 @@ import NavBar from '../components/NavBar';
 
 const PortfolioContainer = () => {
     return ( 
-
+      <div className='app'>
         <Router>
             <NavBar />
         <Routes>
@@ -18,6 +18,7 @@ const PortfolioContainer = () => {
           <Route path="/interests" element={< Interests />} />
         </Routes>
       </Router>
+      </div>
 
      );
 }
