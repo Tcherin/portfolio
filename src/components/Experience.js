@@ -8,10 +8,9 @@ import React from 'react';
             <div className="experience-text">
                 <h1>Experience</h1>
                 <p>At just over the halfway point in my Codeclan studies, 
-                    I can now claim experience in a number of powerful 
-                    programming technologies, including:</p>
+                    I've learned a number of powerful programming technologies, including:</p>
             </div>
-            <div className="experience-icons">
+            <div className="experience-content">
                 <div className="experience-python">
                     <img src="images/python.png" height="125" width="125"></img>
                     <p>Python</p>

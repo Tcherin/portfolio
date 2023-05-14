@@ -5,7 +5,6 @@
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
-  height: 260vh;
 }
 
 @keyframes gradient {
@@ -24,13 +23,17 @@
 
 /* Nav Bar */
 
+a {
+  color: white;
+}
+
 a:link {
   color: white;
   text-decoration: none;
 }
 
-a {
-  color: white;
+a:hover {
+  text-shadow: 0.5px 0.5px;
 }
 
 p {
@@ -42,6 +45,7 @@ p {
 
 h1 {
   font-size: 4rem;
+  margin: 30px;
 }
 
 .navbar {
@@ -75,55 +79,87 @@ h1 {
   padding-top: 30px;
 }
 
-
-
 /* Portfolio Page */
 
 .portfolio-container {
-  height: 50rem;
+  height: 80rem;
 }
 
 .portfolio-text {
-  max-width: 450px;
+  max-width: 750px;
   padding-left: 50px;
 }
 
-
+.portfolio-content {
+  display: grid;
+  padding: 3rem;
+  padding-top: 1 rem;
+  grid-template-columns: 500px 1fr;
+  gap: 2rem;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  font: 500 100%/2.5 system-ui;
+}
 
 /* Experience Page */
 
-.experience-container {
-  height: 50rem;
-}
-
 .experience-text {
-  max-width: 450px;
+  max-width: 750px;
   padding-left: 50px;
 }
 
-.experience-icons {
+.experience-content {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
-  height: 20rem;
-  margin-top: 6rem;
+  height: 30rem;
+  margin-top: 2rem;
+}
+
+.experience-python {
+  animation: fadeIn 2s;
+}
+.experience-flask {
+  animation: fadeIn 4s;
+}
+.experience-html {
+  animation: fadeIn 6s;
+}
+.experience-css {
+  animation: fadeIn 8s;
+}
+.experience-javascript {
+  animation: fadeIn 10s;
+}
+.experience-react {
+  animation: fadeIn 12s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 
 
 /* Interests Page */
 
+.interests-container {
+  height: 235vh;
+}
+
 .interests-title {
-  max-width: 450px;
+  max-width: 750px;
   padding-left: 50px;
 }
 
 .interests-content {
   display: grid;
   padding: 3rem;
-  grid-template-columns: 400px 1fr;
+  grid-template-columns: 500px 1fr;
   gap: 2rem;
   align-items: center;
   max-width: 1000px;
