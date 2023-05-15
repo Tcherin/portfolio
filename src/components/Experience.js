@@ -1,5 +1,5 @@
 import React from 'react';
-
+import python from "../images/python.png";
 
 
 
@@ -13,7 +13,7 @@ import React from 'react';
             </div>
             <div className="experience-content">
                 <div className="experience-python">
-                    <img src="./portfolio/images/python.png"></img>
+                    <img src={python} height="125" width="125"></img>
                     <p>Python</p>
                 </div>
                 <div className="experience-flask">
