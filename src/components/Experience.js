@@ -1,5 +1,10 @@
 import React from 'react';
 import python from "../images/python.png";
+import flask from "../images/flask.png";
+import html from "../images/html.png";
+import css from "../images/css.png";
+import javascript from "../images/javascript.png";
+import react from "../images/react.png";
 
 
 
@@ -17,23 +22,23 @@ import python from "../images/python.png";
                     <p>Python</p>
                 </div>
                 <div className="experience-flask">
-                    <img src="./portfolio/images/flask.png" height="125" width="125"></img>
+                    <img src={flask} height="125" width="125"></img>
                     <p>Flask</p>
                 </div>
                 <div className="experience-html">
-                    <img src="./portfolio/images/html.png" height="125" width="125"></img>
+                    <img src={html} height="125" width="125"></img>
                     <p>HTML</p>
                 </div>
                 <div className="experience-css">
-                    <img src="./portfolio/images/css.png" height="125" width="125"></img>
+                    <img src={css} height="125" width="125"></img>
                     <p>CSS</p>
                 </div>
                 <div className="experience-javascript">
-                    <img src="./portfolio//images/javascript.png" height="125" width="125"></img>
+                    <img src={javascript} height="125" width="125"></img>
                     <p>JavaScript</p>
                 </div>
                 <div className="experience-react">
-                    <img src="./portfolio/images/react.png" height="125" width="125"></img>
+                    <img src={react} height="125" width="125"></img>
                     <p>React</p>
                 </div>
             </div>

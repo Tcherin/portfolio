@@ -1,4 +1,5 @@
 import React from 'react';
+import me from '../images/me.jpeg';
 
 const Home = () => {
     return ( 
@@ -10,7 +11,7 @@ const Home = () => {
                 Development Course and having an absolute ball!</p>
             </div>
             <div className="home-image">
-                <img src="images/me.jpeg" height="190" width="340"></img>
+                <img src={me} height="190" width="340"></img>
             </div>
         </div>
 
